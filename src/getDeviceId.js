@@ -16,7 +16,7 @@ function defaultDeviceIdChooser (filteredDevices, videoDevices, facingMode, chos
 }
 
 const getFacingModePattern = facingMode =>
-  facingMode === 'environment' ? /rear|back|environment/gi : /front|user|face/gi
+  facingMode === 'environment' ? /rear|back|environment|bak/gi : /front|user|face|foran/gi
 
 function getDeviceId (facingMode, chosenCamera, chooseDeviceId = defaultDeviceIdChooser) {
   // Get manual deviceId from available devices.
