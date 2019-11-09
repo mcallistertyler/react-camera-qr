@@ -1,6 +1,6 @@
 {
-  "name": "react-qr-reader2",
-  "version": "1.1.0",
+  "name": "react-camera-qr",
+  "version": "1.0.1",
   "description": "A react component for reading QR codes from the webcam.",
   "main": "./lib/index.js",
   "scripts": {
@@ -18,14 +18,15 @@
     "react",
     "qr",
     "qrcode",
-    "qrreader"
+    "qrreader",
+    "pwa"
   ],
-  "author": "Tuomas Aho",
+  "author": "Tyler McAllister",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tahv0/react-qr-reader2/issues"
+    "url": "https://github.com/mcallistertyler95/react-camera-qr/issues"
   },
-  "homepage": "https://github.com/tahv0/react-qr-reader2#readme",
+  "homepage": "https://github.com/mcallistertyler95/react-camera-qr#readme",
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.12",
     "@storybook/addon-links": "^3.4.12",
@@ -62,6 +63,7 @@
   "dependencies": {
     "jsqr": "^1.2.0",
     "prop-types": "^15.7.2",
+    "react-device-detect": "^1.9.10",
     "webrtc-adapter": "^7.2.9"
   }
 }
