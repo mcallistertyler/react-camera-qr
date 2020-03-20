@@ -74,7 +74,7 @@ class Reader extends React.Component {
     this.initiate()
   }
 
-  componentWillReceiveProps (nextProps) {
+  UNSAFE_componentWillReceiveProps (nextProps) {
     // React according to change in props
     // Rerender when specificCamera changes too
     const changedProps = havePropsChanged(this.props, nextProps, propsKeys)
